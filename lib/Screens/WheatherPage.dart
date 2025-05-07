@@ -35,7 +35,7 @@ class WheatherPage extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          "${provider.wheather?.tempreature}゜C",
+                          "${provider.wheather?.temperature}゜C",
                           style: TextStyle(
                             fontSize: 25,
                             fontWeight: FontWeight.bold,
